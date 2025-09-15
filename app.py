@@ -32,7 +32,7 @@ def encrypt_message(key, iv, plaintext):
 
 # دالة جلب التوكينات
 def fetch_tokens():
-    token_url = "https://panel-jwt-token.vercel.app/get_token?uid=3940147431&password=173A9B5BEC4D576887D9F76ACBFFABA74A2128F4C231C821673E5F8DB060D533"
+    token_url = "https://panel-jwt-token.vercel.app/get_token?uid=4139637878&password=63A00A0C4A3FDF27660C81256622F214F83AD36EE135576FCBC55060A8D58163"
     try:
         response = requests.get(token_url)
         if response.status_code == 200:
